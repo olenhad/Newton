@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB8E80716C64F6000E26065 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB8E80616C64F6000E26065 /* SenTestingKit.framework */; };
+		FCB8E80916C64F6000E26065 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB8E80816C64F6000E26065 /* Cocoa.framework */; };
+		FCB8E81316C64F6000E26065 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCB8E81116C64F6000E26065 /* InfoPlist.strings */; };
+		FCB8E81616C64F6000E26065 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E81516C64F6000E26065 /* Tests.m */; };
+		FCB8E81B16C6591A00E26065 /* Vector2D.h in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35316C40E310085E2C3 /* Vector2D.h */; };
+		FCB8E81C16C6591A00E26065 /* Matrix2D.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35116C40E1D0085E2C3 /* Matrix2D.m */; };
+		FCB8E81D16C6591A00E26065 /* Matrix2D.h in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35016C40E0C0085E2C3 /* Matrix2D.h */; };
+		FCB8E81E16C6591A00E26065 /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA34E16C40DB40085E2C3 /* Vector2D.m */; };
+		FCB8E81F16C6592500E26065 /* NPRectangle.h in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35416C40FA00085E2C3 /* NPRectangle.h */; };
+		FCB8E82016C6592500E26065 /* NPRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35516C40FA00085E2C3 /* NPRectangle.m */; };
+		FCDBBAC416CA923200F22037 /* NPWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBBAC316CA923200F22037 /* NPWorld.m */; };
+		FCDBBAC716CA9B8000F22037 /* NPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBBAC616CA9B8000F22037 /* NPConstants.m */; };
+		FCDBBAC916D0D6B300F22037 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDBBAC816D0D6B300F22037 /* CoreMotion.framework */; };
+		FCDBBACA16D1400B00F22037 /* NPWorld.h in Sources */ = {isa = PBXBuildFile; fileRef = FCDBBAC216CA923200F22037 /* NPWorld.h */; };
+		FCDBBACB16D1400B00F22037 /* NPWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBBAC316CA923200F22037 /* NPWorld.m */; };
+		FCDBBACC16D1400B00F22037 /* NPConstants.h in Sources */ = {isa = PBXBuildFile; fileRef = FCDBBAC516CA9B8000F22037 /* NPConstants.h */; };
+		FCDBBACD16D1400B00F22037 /* NPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDBBAC616CA9B8000F22037 /* NPConstants.m */; };
+		FCDBBACE16D1402700F22037 /* NPShape.h in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA34B16C40CAC0085E2C3 /* NPShape.h */; };
+		FCDBBACF16D1402700F22037 /* NPShape.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA34C16C40CAC0085E2C3 /* NPShape.m */; };
+		FCFEA32816C400F10085E2C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFEA32716C400F10085E2C3 /* UIKit.framework */; };
+		FCFEA32A16C400F10085E2C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFEA32916C400F10085E2C3 /* Foundation.framework */; };
+		FCFEA32C16C400F10085E2C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFEA32B16C400F10085E2C3 /* CoreGraphics.framework */; };
+		FCFEA33216C400F10085E2C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCFEA33016C400F10085E2C3 /* InfoPlist.strings */; };
+		FCFEA33416C400F10085E2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA33316C400F10085E2C3 /* main.m */; };
+		FCFEA33816C400F10085E2C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA33716C400F10085E2C3 /* AppDelegate.m */; };
+		FCFEA33A16C400F10085E2C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFEA33916C400F10085E2C3 /* Default.png */; };
+		FCFEA33C16C400F10085E2C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFEA33B16C400F10085E2C3 /* Default@2x.png */; };
+		FCFEA33E16C400F10085E2C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFEA33D16C400F10085E2C3 /* Default-568h@2x.png */; };
+		FCFEA34116C400F10085E2C3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFEA33F16C400F10085E2C3 /* MainStoryboard.storyboard */; };
+		FCFEA34416C400F10085E2C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA34316C400F10085E2C3 /* ViewController.m */; };
+		FCFEA34D16C40CAC0085E2C3 /* NPShape.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA34C16C40CAC0085E2C3 /* NPShape.m */; };
+		FCFEA34F16C40DB40085E2C3 /* Vector2D.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA34E16C40DB40085E2C3 /* Vector2D.m */; };
+		FCFEA35216C40E1D0085E2C3 /* Matrix2D.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35116C40E1D0085E2C3 /* Matrix2D.m */; };
+		FCFEA35616C40FA10085E2C3 /* NPRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35516C40FA00085E2C3 /* NPRectangle.m */; };
+		FCFEA35916C4EF8A0085E2C3 /* RectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFEA35816C4EF8A0085E2C3 /* RectViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCB8E80516C64F6000E26065 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB8E80616C64F6000E26065 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FCB8E80816C64F6000E26065 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FCB8E80B16C64F6000E26065 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FCB8E80C16C64F6000E26065 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FCB8E80D16C64F6000E26065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCB8E81016C64F6000E26065 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		FCB8E81216C64F6000E26065 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCB8E81416C64F6000E26065 /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		FCB8E81516C64F6000E26065 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		FCB8E81716C64F6000E26065 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		FCDBBAC216CA923200F22037 /* NPWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPWorld.h; sourceTree = "<group>"; };
+		FCDBBAC316CA923200F22037 /* NPWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPWorld.m; sourceTree = "<group>"; };
+		FCDBBAC516CA9B8000F22037 /* NPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPConstants.h; sourceTree = "<group>"; };
+		FCDBBAC616CA9B8000F22037 /* NPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPConstants.m; sourceTree = "<group>"; };
+		FCDBBAC816D0D6B300F22037 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FCFEA32316C400F10085E2C3 /* Newton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFEA32716C400F10085E2C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCFEA32916C400F10085E2C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCFEA32B16C400F10085E2C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCFEA32F16C400F10085E2C3 /* Newton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Newton-Info.plist"; sourceTree = "<group>"; };
+		FCFEA33116C400F10085E2C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCFEA33316C400F10085E2C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFEA33516C400F10085E2C3 /* Newton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Newton-Prefix.pch"; sourceTree = "<group>"; };
+		FCFEA33616C400F10085E2C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFEA33716C400F10085E2C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFEA33916C400F10085E2C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FCFEA33B16C400F10085E2C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FCFEA33D16C400F10085E2C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCFEA34016C400F10085E2C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FCFEA34216C400F10085E2C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFEA34316C400F10085E2C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFEA34B16C40CAC0085E2C3 /* NPShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPShape.h; sourceTree = "<group>"; };
+		FCFEA34C16C40CAC0085E2C3 /* NPShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPShape.m; sourceTree = "<group>"; };
+		FCFEA34E16C40DB40085E2C3 /* Vector2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector2D.m; sourceTree = "<group>"; };
+		FCFEA35016C40E0C0085E2C3 /* Matrix2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2D.h; sourceTree = "<group>"; };
+		FCFEA35116C40E1D0085E2C3 /* Matrix2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix2D.m; sourceTree = "<group>"; };
+		FCFEA35316C40E310085E2C3 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
+		FCFEA35416C40FA00085E2C3 /* NPRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPRectangle.h; sourceTree = "<group>"; };
+		FCFEA35516C40FA00085E2C3 /* NPRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPRectangle.m; sourceTree = "<group>"; };
+		FCFEA35716C4EF890085E2C3 /* RectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectViewController.h; sourceTree = "<group>"; };
+		FCFEA35816C4EF8A0085E2C3 /* RectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB8E80116C64F6000E26065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB8E80716C64F6000E26065 /* SenTestingKit.framework in Frameworks */,
+				FCB8E80916C64F6000E26065 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFEA32016C400F10085E2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDBBAC916D0D6B300F22037 /* CoreMotion.framework in Frameworks */,
+				FCFEA32816C400F10085E2C3 /* UIKit.framework in Frameworks */,
+				FCFEA32A16C400F10085E2C3 /* Foundation.framework in Frameworks */,
+				FCFEA32C16C400F10085E2C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB8E80A16C64F6000E26065 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB8E80B16C64F6000E26065 /* AppKit.framework */,
+				FCB8E80C16C64F6000E26065 /* CoreData.framework */,
+				FCB8E80D16C64F6000E26065 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FCB8E80E16C64F6000E26065 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB8E81416C64F6000E26065 /* Tests.h */,
+				FCB8E81516C64F6000E26065 /* Tests.m */,
+				FCB8E80F16C64F6000E26065 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FCB8E80F16C64F6000E26065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCB8E81016C64F6000E26065 /* Tests-Info.plist */,
+				FCB8E81116C64F6000E26065 /* InfoPlist.strings */,
+				FCB8E81716C64F6000E26065 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCFEA31816C400F10085E2C3 = {
+			isa = PBXGroup;
+			children = (
+				FCDBBAC816D0D6B300F22037 /* CoreMotion.framework */,
+				FCFEA32D16C400F10085E2C3 /* Newton */,
+				FCB8E80E16C64F6000E26065 /* Tests */,
+				FCFEA32616C400F10085E2C3 /* Frameworks */,
+				FCFEA32416C400F10085E2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFEA32416C400F10085E2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFEA32316C400F10085E2C3 /* Newton.app */,
+				FCB8E80516C64F6000E26065 /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFEA32616C400F10085E2C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFEA32716C400F10085E2C3 /* UIKit.framework */,
+				FCFEA32916C400F10085E2C3 /* Foundation.framework */,
+				FCFEA32B16C400F10085E2C3 /* CoreGraphics.framework */,
+				FCB8E80616C64F6000E26065 /* SenTestingKit.framework */,
+				FCB8E80816C64F6000E26065 /* Cocoa.framework */,
+				FCB8E80A16C64F6000E26065 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCFEA32D16C400F10085E2C3 /* Newton */ = {
+			isa = PBXGroup;
+			children = (
+				FCFEA35316C40E310085E2C3 /* Vector2D.h */,
+				FCFEA35116C40E1D0085E2C3 /* Matrix2D.m */,
+				FCFEA35016C40E0C0085E2C3 /* Matrix2D.h */,
+				FCFEA34E16C40DB40085E2C3 /* Vector2D.m */,
+				FCFEA33616C400F10085E2C3 /* AppDelegate.h */,
+				FCFEA33716C400F10085E2C3 /* AppDelegate.m */,
+				FCFEA33F16C400F10085E2C3 /* MainStoryboard.storyboard */,
+				FCFEA34216C400F10085E2C3 /* ViewController.h */,
+				FCFEA34316C400F10085E2C3 /* ViewController.m */,
+				FCDBBAC216CA923200F22037 /* NPWorld.h */,
+				FCDBBAC316CA923200F22037 /* NPWorld.m */,
+				FCDBBAC516CA9B8000F22037 /* NPConstants.h */,
+				FCDBBAC616CA9B8000F22037 /* NPConstants.m */,
+				FCFEA32E16C400F10085E2C3 /* Supporting Files */,
+				FCFEA34B16C40CAC0085E2C3 /* NPShape.h */,
+				FCFEA34C16C40CAC0085E2C3 /* NPShape.m */,
+				FCFEA35416C40FA00085E2C3 /* NPRectangle.h */,
+				FCFEA35516C40FA00085E2C3 /* NPRectangle.m */,
+				FCFEA35716C4EF890085E2C3 /* RectViewController.h */,
+				FCFEA35816C4EF8A0085E2C3 /* RectViewController.m */,
+			);
+			path = Newton;
+			sourceTree = "<group>";
+		};
+		FCFEA32E16C400F10085E2C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFEA32F16C400F10085E2C3 /* Newton-Info.plist */,
+				FCFEA33016C400F10085E2C3 /* InfoPlist.strings */,
+				FCFEA33316C400F10085E2C3 /* main.m */,
+				FCFEA33516C400F10085E2C3 /* Newton-Prefix.pch */,
+				FCFEA33916C400F10085E2C3 /* Default.png */,
+				FCFEA33B16C400F10085E2C3 /* Default@2x.png */,
+				FCFEA33D16C400F10085E2C3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB8E80416C64F6000E26065 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB8E81816C64F6000E26065 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				FCB8E80016C64F6000E26065 /* Sources */,
+				FCB8E80116C64F6000E26065 /* Frameworks */,
+				FCB8E80216C64F6000E26065 /* Resources */,
+				FCB8E80316C64F6000E26065 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = FCB8E80516C64F6000E26065 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FCFEA32216C400F10085E2C3 /* Newton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFEA34716C400F10085E2C3 /* Build configuration list for PBXNativeTarget "Newton" */;
+			buildPhases = (
+				FCFEA31F16C400F10085E2C3 /* Sources */,
+				FCFEA32016C400F10085E2C3 /* Frameworks */,
+				FCFEA32116C400F10085E2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Newton;
+			productName = Newton;
+			productReference = FCFEA32316C400F10085E2C3 /* Newton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFEA31A16C400F10085E2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = nus.cs3217;
+			};
+			buildConfigurationList = FCFEA31D16C400F10085E2C3 /* Build configuration list for PBXProject "Newton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCFEA31816C400F10085E2C3;
+			productRefGroup = FCFEA32416C400F10085E2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFEA32216C400F10085E2C3 /* Newton */,
+				FCB8E80416C64F6000E26065 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB8E80216C64F6000E26065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB8E81316C64F6000E26065 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFEA32116C400F10085E2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFEA33216C400F10085E2C3 /* InfoPlist.strings in Resources */,
+				FCFEA33A16C400F10085E2C3 /* Default.png in Resources */,
+				FCFEA33C16C400F10085E2C3 /* Default@2x.png in Resources */,
+				FCFEA33E16C400F10085E2C3 /* Default-568h@2x.png in Resources */,
+				FCFEA34116C400F10085E2C3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCB8E80316C64F6000E26065 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB8E80016C64F6000E26065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDBBACE16D1402700F22037 /* NPShape.h in Sources */,
+				FCDBBACF16D1402700F22037 /* NPShape.m in Sources */,
+				FCDBBACA16D1400B00F22037 /* NPWorld.h in Sources */,
+				FCDBBACB16D1400B00F22037 /* NPWorld.m in Sources */,
+				FCDBBACC16D1400B00F22037 /* NPConstants.h in Sources */,
+				FCDBBACD16D1400B00F22037 /* NPConstants.m in Sources */,
+				FCB8E81F16C6592500E26065 /* NPRectangle.h in Sources */,
+				FCB8E82016C6592500E26065 /* NPRectangle.m in Sources */,
+				FCB8E81B16C6591A00E26065 /* Vector2D.h in Sources */,
+				FCB8E81C16C6591A00E26065 /* Matrix2D.m in Sources */,
+				FCB8E81D16C6591A00E26065 /* Matrix2D.h in Sources */,
+				FCB8E81E16C6591A00E26065 /* Vector2D.m in Sources */,
+				FCB8E81616C64F6000E26065 /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFEA31F16C400F10085E2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFEA33416C400F10085E2C3 /* main.m in Sources */,
+				FCFEA33816C400F10085E2C3 /* AppDelegate.m in Sources */,
+				FCFEA34416C400F10085E2C3 /* ViewController.m in Sources */,
+				FCFEA34D16C40CAC0085E2C3 /* NPShape.m in Sources */,
+				FCFEA34F16C40DB40085E2C3 /* Vector2D.m in Sources */,
+				FCFEA35216C40E1D0085E2C3 /* Matrix2D.m in Sources */,
+				FCFEA35616C40FA10085E2C3 /* NPRectangle.m in Sources */,
+				FCFEA35916C4EF8A0085E2C3 /* RectViewController.m in Sources */,
+				FCDBBAC416CA923200F22037 /* NPWorld.m in Sources */,
+				FCDBBAC716CA9B8000F22037 /* NPConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCB8E81116C64F6000E26065 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB8E81216C64F6000E26065 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCFEA33016C400F10085E2C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFEA33116C400F10085E2C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCFEA33F16C400F10085E2C3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFEA34016C400F10085E2C3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB8E81916C64F6000E26065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FCB8E81A16C64F6000E26065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		FCFEA34516C400F10085E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FCFEA34616C400F10085E2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFEA34816C400F10085E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Newton/Newton-Prefix.pch";
+				INFOPLIST_FILE = "Newton/Newton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCFEA34916C400F10085E2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Newton/Newton-Prefix.pch";
+				INFOPLIST_FILE = "Newton/Newton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB8E81816C64F6000E26065 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB8E81916C64F6000E26065 /* Debug */,
+				FCB8E81A16C64F6000E26065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFEA31D16C400F10085E2C3 /* Build configuration list for PBXProject "Newton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFEA34516C400F10085E2C3 /* Debug */,
+				FCFEA34616C400F10085E2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFEA34716C400F10085E2C3 /* Build configuration list for PBXNativeTarget "Newton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFEA34816C400F10085E2C3 /* Debug */,
+				FCFEA34916C400F10085E2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFEA31A16C400F10085E2C3 /* Project object */;
+}
